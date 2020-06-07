@@ -190,8 +190,8 @@ def bucle_while_for():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    bucle_while()
-    bucle_for()
-    contador()
-    sumatoria()
+    #bucle_while()
+    #bucle_for()
+    #contador()
+    #sumatoria()
     bucle_while_for()

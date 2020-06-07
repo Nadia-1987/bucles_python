@@ -26,9 +26,8 @@ def ej1():
     # el valor de "x" incremente "1" en cada iteración
 
     while x < 6:  
-        
-        print(x,'es menor a 6')
-        x += 1
+            print(x,'es menor a 6')
+            x += 1
 
         
 
@@ -62,25 +61,19 @@ def ej2():
         print('El color de la lista es',color)
 
     
-
-    # Itere el "for" utilizando la lista como parámero
-    # y utilizar como elemento del "for" cada color
-    # for color ...
-
-
-
+    for i in range(len(colores)):
+        print(colores[i])
+        
+   
     # Itere el "for" utilizando el tamaño de la lista
     # como parámetro y utilizar el índice para acceder a
     # los elementos de la lista
     # for i ...
 
-    for i in range(len(colores)):
-        print('Indice=',i,'el nombre del color es',colores[i])
+    
         
-
-
-
 def ej3():
+    
     # Ejemplos con bucles "for"
 
     # Dado la siguiente lista de números, utilizar "for"
@@ -191,14 +184,7 @@ def ej6():
 
             
 
-    # fin....
-
-    cantidad_numeros_positivos = 0  # Inicializo el contador en 0
-    #cantidad_numeros_negativos
-
-    # for ... in range(....)
-
-    # Imprimir el valor de la cantidad de números positivos y negativos
+   
 
 
 if __name__ == '__main__':
@@ -208,4 +194,4 @@ if __name__ == '__main__':
     #ej3()
     #ej4()
     #ej5()
-    ej6()
+    #ej6()

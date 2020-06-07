@@ -1,0 +1,24 @@
+
+attempts = 0
+threshold = 2
+password = "nugget"
+pass_ok = False
+
+    for i in range(0,3):
+        attempts = 0
+        while threshold > attempts:
+            word = str(input("Please insert the password\n"))
+            if word != password:
+                pass_ok = False
+                print("wrong password, try again")
+            else:
+                pass_ok = True
+                print("Succes")
+                break
+            attempts += 1
+        if pass_ok == True:
+            break
+    if pass_ok == True:
+        print("wellcome!")
+    else:
+        print("you exceeded the limit of attempts, try again in 15 minutes")
